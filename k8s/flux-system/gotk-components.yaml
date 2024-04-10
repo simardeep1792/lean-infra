@@ -3651,7 +3651,7 @@ spec:
             memory: 1Gi
           requests:
             cpu: 50m
-            memory: 52Mi
+            memory: 64Mi
         securityContext:
           allowPrivilegeEscalation: false
           capabilities:
@@ -5383,8 +5383,8 @@ spec:
             cpu: 1000m
             memory: 1Gi
           requests:
-            cpu: 50m
-            memory: 52Mi
+            cpu: 100m
+            memory: 64Mi
         securityContext:
           allowPrivilegeEscalation: false
           capabilities:
@@ -7299,8 +7299,8 @@ spec:
             cpu: 1000m
             memory: 1Gi
           requests:
-            cpu: 50m
-            memory: 52Mi
+            cpu: 100m
+            memory: 64Mi
         securityContext:
           allowPrivilegeEscalation: false
           capabilities:
@@ -8283,8 +8283,8 @@ spec:
             cpu: 1000m
             memory: 1Gi
           requests:
-            cpu: 50m
-            memory: 52Mi
+            cpu: 100m
+            memory: 64Mi
         securityContext:
           allowPrivilegeEscalation: false
           capabilities:
@@ -8701,8 +8701,8 @@ spec:
             cpu: 1000m
             memory: 1Gi
           requests:
-            cpu: 50m
-            memory: 52Mi
+            cpu: 100m
+            memory: 64Mi
         securityContext:
           allowPrivilegeEscalation: false
           capabilities:
