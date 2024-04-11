@@ -6,6 +6,6 @@ metadata:
     mesh.cloud.google.com/proxy: '{"managed": true}'
   labels:
     name: istio-system
-    istio.io/rev: asm-managed
+    istio.io/rev: asm-managed-rapid
 spec: {}
 status: {}

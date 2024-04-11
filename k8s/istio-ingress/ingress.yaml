@@ -33,7 +33,7 @@ spec:
         # Set a unique label for the gateway. This is required to ensure Gateways can select this workload
         istio: ingressgateway
         # Enable gateway injection. If connecting to a revisioned control plane, replace with "istio.io/rev: revision-name"
-        istio.io/rev: asm-managed
+        istio.io/rev: asm-managed-rapid
     spec:
       containers:
       - name: istio-proxy
