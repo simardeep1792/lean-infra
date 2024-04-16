@@ -16,8 +16,8 @@ patches:
           selector: {}
           dns01:
             cloudDNS:
-              project: phx-01h28kjpmp42v8xh59v0qvfpxa
-              hostedZoneName: dhis2-managed-dns-zone
+              project: phx-01hvm3jqnp9
+              hostedZoneName: leandhis2-alpha-phac-gc-ca
       - op: add
         path: /spec/acme/email
         value: simardeep.singh@phac-aspc.gc.ca
@@ -35,8 +35,8 @@ patches:
           selector: {}
           dns01:
             cloudDNS:
-              project: phx-01h28kjpmp42v8xh59v0qvfpxa
-              hostedZoneName: dhis2-managed-dns-zone
+              project: phx-01hvm3jqnp9
+              hostedZoneName: leandhis2-alpha-phac-gc-ca
       - op: add
         path: /spec/acme/email
         value: simardeep.singh@phac-aspc.gc.ca

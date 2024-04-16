@@ -5,7 +5,7 @@ metadata:
   namespace: istio-ingress
 spec:
   dnsNames:
-    - lean.dhis2.phac-aspc.alpha.canada.ca
+    - leandhis2.alpha.phac.gc.ca
   issuerRef:
     kind: ClusterIssuer
     name: letsencrypt-production

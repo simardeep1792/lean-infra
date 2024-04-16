@@ -56,20 +56,20 @@ spec:
     inProgress: false
     reusePVC: false
 
-  # serviceAccountTemplate:
-  #   metadata:
-  #     annotations:
-  #       # k8s service account is created with the same as `metadata.name` above
-  #       # ensure an appropriate storage role(s) and workload identity is assigned: https://cloud.google.com/kubernetes-engine/docs/how-to/workload-identity
-  #       iam.gke.io/gcp-service-account: dhis2-postgis-backup@phx-01h28kjpmp42v8xh59v0qvfpxa.iam.gserviceaccount.com
+  serviceAccountTemplate:
+    metadata:
+      annotations:
+        # k8s service account is created with the same as `metadata.name` above
+        # ensure an appropriate storage role(s) and workload identity is assigned: https://cloud.google.com/kubernetes-engine/docs/how-to/workload-identity
+        iam.gke.io/gcp-service-account: leandhis2-postgis-backup@phx-01hvm3jqnp9.iam.gserviceaccount.com
 
-  # # info: https://cloudnative-pg.io/documentation/1.21/appendixes/object_stores/#running-inside-google-kubernetes-engine
-  # backup:
-  #   barmanObjectStore:
-  #     destinationPath: gs://dhis2-postgis-backup-phx-01h28kjpmp42v8xh59v0qvfpxa
-  #     googleCredentials:
-  #       gkeEnvironment: true
-  #   retentionPolicy: "90d"
+  # info: https://cloudnative-pg.io/documentation/1.21/appendixes/object_stores/#running-inside-google-kubernetes-engine
+  backup:
+    barmanObjectStore:
+      destinationPath: gs://leandhis2-postgis-phx-01hvm3jqnp9
+      googleCredentials:
+        gkeEnvironment: true
+    retentionPolicy: "90d"
 
   inheritedMetadata:
     annotations:
