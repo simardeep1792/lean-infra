@@ -34,9 +34,6 @@ patches:
       - op: add
         path: /spec/template/spec/containers/0/resources
         value:
-          limits:
-            cpu: 50m
-            memory: 52Mi
           requests:
             cpu: 50m
             memory: 52Mi
@@ -56,9 +53,6 @@ patches:
       - op: add
         path: /spec/template/spec/containers/0/resources
         value:
-          limits:
-            cpu: 50m
-            memory: 52Mi
           requests:
             cpu: 50m
             memory: 52Mi
@@ -73,9 +67,6 @@ patches:
       - op: add
         path: /spec/template/spec/containers/0/resources
         value:
-          limits:
-            cpu: 50m
-            memory: 52Mi
           requests:
             cpu: 50m
             memory: 52Mi

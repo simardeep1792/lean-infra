@@ -14610,9 +14610,6 @@ spec:
             port: 9443
             scheme: HTTPS
         resources:
-          limits:
-            cpu: 50m
-            memory: 52Mi
           requests:
             cpu: 50m
             memory: 52Mi

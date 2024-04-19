@@ -22,9 +22,6 @@ patches:
                   requests:
                     cpu: 50m
                     memory: 52Mi
-                  limits:
-                    cpu: 50m
-                    memory: 52Mi
   # patch kustomize-controller service account to access GCP KMS for decrypting secrets
   # See https://fluxcd.io/flux/guides/mozilla-sops/#google-cloud
   - patch: |
