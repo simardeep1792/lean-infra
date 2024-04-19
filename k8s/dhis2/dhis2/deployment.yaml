@@ -22,16 +22,15 @@ spec:
             requests:
               cpu: 50m
               memory: 52Mi
+            limits:
+              cpu: 50m
+              memory: 52Mi
           securityContext:
             runAsNonRoot: true
             allowPrivilegeEscalation: false
         - name: dhis2
           image: dhis2/core:2.38
           imagePullPolicy: Always
-          resources:
-            requests:
-              cpu: "2"
-              memory: "2Gi"
           securityContext:
             allowPrivilegeEscalation: false
           ports:
